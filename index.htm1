@@ -1,1 +1,83 @@
-crush အတွက်❤️ website 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Crush ❤️</title>
+
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #ffb6d9, #c9b6ff);
+      text-align: center;
+      color: white;
+    }
+
+    .box {
+      background: rgba(255,255,255,0.2);
+      padding: 40px 25px;
+      border-radius: 25px;
+      width: 80%;
+      max-width: 400px;
+      backdrop-filter: blur(10px);
+    }
+
+    h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    button {
+      border: none;
+      padding: 14px 25px;
+      border-radius: 30px;
+      background: white;
+      color: #ff4f9a;
+      font-size: 17px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    #message {
+      display: none;
+      margin-top: 20px;
+      font-size: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="box">
+    <h1>My Crush ❤️</h1>
+
+    <p>
+      You are someone very special to me. 💕<br>
+      Good things take time. ✨
+    </p>
+
+    <button onclick="showMessage()">Click Me ❤️</button>
+
+    <div id="message">
+      I will always support you. 🫶🏻❤️
+    </div>
+  </div>
+
+  <script>
+    function showMessage() {
+      document.getElementById("message").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
